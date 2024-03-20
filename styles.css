@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(237, 246, 245);
+    padding: 5px;
+    margin: 5px;
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+background-color: rgb(57, 63, 91);
+text-align: center;
+}
+
+.header {
+background-color: rgb(168, 170, 184); 
+padding: 10px;
+  border: 5px ;
+  margin: 1px;
+
+}
+.nav{
+    
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+}
