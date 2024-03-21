@@ -12,15 +12,15 @@ aside {
 }
 footer {
     position: fixed;
-    left: 0;
+  
     bottom: 0;
     width: 100%;
-background-color: rgb(57, 63, 91);
+background-color: rgb(55, 57, 64);
 text-align: center;
 }
 
 .header {
-background-color: rgb(168, 170, 184); 
+background-color: rgb(102, 164, 211); 
 padding: 10px;
   border: 5px ;
   margin: 1px;
