@@ -1,45 +1,81 @@
+
+html, body, header, nav, aside, section, footer, div {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
 body {
-    font-family: sans-serif;
-    background-color: rgb(237, 246, 245);
-    padding: 5px;
-    margin: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-background-color: rgb(55, 57, 64);
-text-align: center;
-}
+
 
 .header {
-background-color: rgb(102, 164, 211); 
-padding: 10px;
-  border: 5px ;
-  margin: 1px;
-
-}
-.nav {
-    
-    padding: 5px;
-    border: 5px;
-    margin: 5px;
+    background-color: #3769a6;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
-.banner {
-padding: 10px;
-border: 5px;
-margin: 5px;
 
+.header h1 {
+    font-size: 36px;
 }
-.section {
-    margin-right: 1px;
-    border: 5px;
-    padding: 2px;
+
+.header p {
+    font-size: 18px;
+}
+
+
+.nav {
+    background-color: #444444;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section {
+    flex: 1;
+    padding: 20px;
+}
+
+aside {
+    flex: 0 0 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
