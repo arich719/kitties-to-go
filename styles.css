@@ -11,8 +11,7 @@ aside {
     float: right;
 }
 footer {
-    position: fixed;
-  
+    position: relative;
     bottom: 0;
     width: 100%;
 background-color: rgb(55, 57, 64);
@@ -26,10 +25,21 @@ padding: 10px;
   margin: 1px;
 
 }
-.nav{
+.nav {
     
     padding: 5px;
     border: 5px;
     margin: 5px;
     text-align: center;
+}
+.banner {
+padding: 10px;
+border: 5px;
+margin: 5px;
+
+}
+.section {
+    margin-right: 1px;
+    border: 5px;
+    padding: 2px;
 }
