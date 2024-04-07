@@ -1,9 +1,7 @@
-
 html, body, header, nav, aside, section, footer, div {
     margin: 0;
     padding: 0;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -16,9 +14,9 @@ body {
     padding: 20px;
 }
 
-
 .header {
-    background-color: #3769a6;
+    background: rgb(167, 175, 158);
+    background: linear-gradient(36deg, rgba(94, 119, 69, 0.807) 0%, rgba(9,121,106,1) 44%);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -32,7 +30,6 @@ body {
     font-size: 18px;
 }
 
-
 .nav {
     background-color: #444444;
     padding: 10px;
@@ -44,9 +41,7 @@ body {
     text-decoration: none;
     margin: .5rem;
     padding: .5rem;
-
 }
-
 
 main {
     display: flex;
@@ -64,22 +59,21 @@ aside {
     padding: 20px;
 }
 
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
 footer img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-}
-.responsive-img {
-    max-width: 100%;
     height: auto;
+    background: linear-gradient(45deg, grey);
+}
+
+footer {
     display: block;
-    margin: 0 auto; /* Center the image */
-  }
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(115, 162, 162);
+    color: rgb(10, 9, 9);
+}
+      

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
     <style>
-        
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -13,56 +12,49 @@
             color: #333;
             padding: 20px;
         }
-        
-       
+
         .header {
             text-align: center;
             padding: 10px;
-            background-color: #fff;
+            background-color: #8e9696;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
         }
-        
-      
+
         .nav {
             margin-top: 20px;
         }
-        
+
         .nav a {
             text-decoration: none;
             color: #333;
             margin-right: 10px;
             padding: .5rem;
         }
-        
-        
+
         .about {
             background-color: #fff;
             padding: 20px;
             margin-bottom: 20px;
         }
-        
+
         footer {
             text-align: center;
-            background-color: #fff;
+            background-color: #896d6d;
             padding: 20px;
             box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
         }
-        
-       
+
         .responsive-img {
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 0 auto; /* Center the image */
+            margin: 0 auto; 
         }
-        
-       {
-            /* Adjust header layout for small screens */
-            .nav a {
-                display: block;
-                margin-bottom: 10px;
-            }
+
+        .nav a {
+            display: block;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -85,9 +77,14 @@
         <p>Soon to follow will be an alternative website about the things cats think about when people ask them questions. This will be made possible by Elon Musk and his telelink brain chip for animals. Testing has been successful so far and will be ready for consumers as soon as the government approves it. This should get approval in the next two years. Until then, we will have to guess. But Kitties to Go will still be around and will be reporting on the antisocial behavior of kittens.</p>
     </section>
     <footer>
-        <img src="images/cat-logo.png" alt="Catlogo">
-        Aborpos nistro inci tet aut que volupti berupiberr to ex esseque invenienihil imaximu scideru plistiusam consequunt 
-        @2024 Kitties To Go, LLC | Seattle, WA
+        <img class="footer" srcset="images/cat-logo-200w.png 200w,
+                                     images/cat-logo-500w.png 500w,
+                                     images/cat-logo-800w.png 800w"
+             sizes="(max-width: 600px) 200px,
+                    (max-width: 1000px) 500px,
+                    800px"
+             src="images/cat-footer-image.jpg" alt="Catlogo">
+        <p>Aborpos nistro inci tet aut que volupti berupiberr to ex esseque invenienihil imaximu scideru plistiusam consequunt @2024 Kitties To Go, LLC | Seattle, WA</p>
     </footer>
 </body>
 </html>
