@@ -64,7 +64,7 @@ footer img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
-    background: linear-gradient(45deg, grey);
+    background: linear-gradient(45deg, grey,rgb(90, 69, 69));
 }
 
 footer {
